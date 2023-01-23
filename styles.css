@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    position: relative;
+    padding-inline: 32px;
+    background-color: rgba(0, 0, 0, 0.133);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.logoimage {
+    width: 100px;
+    height: 50px;
+}
+.logo {
+    align-items: center;
+    display: flex;
+}
+.menu_list {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-inline: 20px;
+    transition: 0.4s;
+}
+.menu_list1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+    margin-inline: 20px;
+    transition: 0.4s;
+}
+.menu_list1:hover {
+    color: red;
+    }
+.menu_list:hover {
+color: red;
+}
+.lang {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.lang1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.lang:hover {
+    color: red;
+}
+.lang1:hover {
+    color: red;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+.cauta {
+    margin-left: 26px;
+}
+.cauta_negru{
+    width: 15px;
+}
+.telefon {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tel {
+    margin-right: 8px;
+    transition: 0.4s;
+}
+
+.meniu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 51px;
+}
+.line_menu {
+    margin: 1.5px;
+}
+.background {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    object-fit:cover;
+    filter:brightness(70%);
+}
+.inchide {
+    cursor: pointer;
+}
+.submenu {
+    margin-top: 209px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.sublist {
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-inline: 11px;
+    padding: 18px;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    color:rgb(255, 255, 255);
+}
+.meniul3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 54px;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: rgb(205, 205, 205);
+    padding-inline: 315px;
+}
+.menu3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-right: 41px;
+    transition:0.4s;
+}
+.menu3:hover {
+    color: red;
+}
+.inchide {
+    width: 15px;
+    height: 15px;
+}
+.popup {
+    z-index: 1;
+    justify-content: end;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.burger {
+    position: absolute;
+    width: 400px;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categorii {
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cat1,.cat2 {
+    display: flex;
+    flex-direction: column;
+}
+.popupmenu {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 45%;
+    margin-right: 25%;
+}
+.name {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 196, 196);
+    width: 100%;
+    height: 60px;
+    margin-bottom: 28px;
+}
+.popuplist {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition:0.4s;
+}
+.popuplist:hover {
+    color: red;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:80px ;
+    border-bottom: 1px solid;
+}
+.container_oferte {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+.oferta{
+    width: 300px;
+    height: 230px;
+    box-shadow: 2px 2px 2px 2px rgb(232, 231, 231);
+    border-radius: 5px;
+}
+.oferta_img {
+    width: 100%;
+    height: 80%;
+}
+.space {
+    margin-right: 20px;
+}
+.odai,.dusuri {
+    margin-right: 10px;
+}
+.proprietati {
+    padding-inline: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.metri_camere {
+    display: flex;
+    align-items: center;
+}
+.strada {
+    padding-inline: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(138, 138, 138);
+}
+.pretul {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboneazate {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline:9% ;
+}
+.oferte_fierbinti {
+    display: flex;
+    align-items: center;
+}
+.logo_oferte {
+    margin-left: 25px;
+    background-color: rgb(249, 46, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 36px;
+    color: white;
+    transition: 0.4s;
+    
+}
+.logo_oferte:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: 1px solid red;
+}
+.abonez_logo {
+    margin-right: 5px;
+    width: 15px;
+}
+.toate_ofertele {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.txt {
+    font-weight: 100;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lg {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sageataoferte {
+    margin-left: 10px;
+}
+.odai,.dusuri,.metri_patrati {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+    display: flex;
+
+}
+.odai_semn,.dus {
+    margin-right: 2px;
+}
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #232323;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rind {
+    display: flex;
+    flex-direction: column;
+}
+.footera {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer_log {
+    margin-bottom: 20px;
+}
+.header_apart {
+    position: relative;
+    padding-inline: 32px;
+    background-color: rgba(255, 255, 255, 0.133);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.cauta_negru{
+    width: px;
+}
+.oferta {
+    cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+    .background,.submenu,.container_oferte{
+        width: 100vh;
+    }
+    .header {
+        width: 100vh;
+    }   
+    .footer {
+      width: 100vh;  
+    } 
+    .oferta {
+        margin-bottom: 20px;
+    }
+    .container_oferte {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 850px) {
+    .nav {
+        display: none;
+    }
+    .lang,.cauta,.telefon,.linelang {
+        display: none;
+    }
+}
+@media screen and (max-width:1150px) {
+    .container_oferte {
+        flex-wrap: wrap;
+    }
+    .txt,.toate_ofertele,.meniul3,.aboneazate {
+        display: none;
+    }
+    .oferta {
+        margin-bottom: 20px;
+    }
+  
+}
+.continut,.continut_all {
+    padding-inline: 100px;
+}
+.continut_all {
+    display:flex;
+}
+.continut {
+    width: 73%;
+}
+.informatii_apartament {
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h4{
+    color: rgb(127, 127, 127);
+}
+h4,h5 {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+.informatii_apart {
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.locatia_exacta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+  
+}
+.pretulapartament {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.imagine {
+    width: 100%;
+    height: auto;
+}
+.imagini_mici {
+    width: 13.4%;
+    margin:3px
+}
+.mare {
+width: 100%;
+}
+.stinga {
+    width: 60%;
+    height: auto;
+    margin-right: 30px;
+}
+.img_small {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.imaginea_agentului {
+    width: 120px;
+    height: auto;
+    margin-right: 30px;
+  
+}
+.statut {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color :rgb(87, 87, 87)
+}
+.info_agent {
+    display: flex;
+}
+.informatie_agent {
+    display: flex;
+    flex-direction: column;
+}
+.numele_prenume {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numar_telefon {
+    color: red;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info_left,.info_right {
+    padding-inline: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_left {
+    border-right: 1px solid;
+}
+.logoimage {
+    cursor: pointer;
+}
+
